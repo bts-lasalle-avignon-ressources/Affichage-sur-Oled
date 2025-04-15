@@ -9,7 +9,7 @@
 
 ## 1 -  Nomenclature
 
-- La carte ESP'Infinty équipée de son [ESP32-wroom-32](https://www.az-delivery.de/en/products/esp32-developmentboard)
+- La carte ESP'Infinty équipée de son [ESP32-wroom-32](https://www.az-delivery.de/en/products/esp32-developmentboard).
 La carte ESP'Infinty permet une connectivité entre le bus I2C du µC et celui de l'afficheur.
 
 <img src="./images/infinity.jpg" height="200" width="300" alt="Carte Infinity">
@@ -48,7 +48,7 @@ oled.setTextSize(TAILLE_TEXTE);
 
 ## 3 - Création d'une bibliotèque
 
-> [!TIP]   Afin de faciliter l'utilisation de l'afficheur Oled, on utilisera un bibliotèque déposée dans le dossier lib du projet.
+> Afin de faciliter l'utilisation de l'afficheur Oled, on utilisera un bibliotèque déposée dans le dossier lib du projet.
 
 <br>
 
