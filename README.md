@@ -9,8 +9,7 @@
 
 ## 1 -  Nomenclature
 
-- La carte ESP'Infinty équipée de son [ESP32-wroom-32](https://www.az-delivery.de/en/products/esp32-developmentboard).
-La carte ESP'Infinty permet une connectivité entre le bus I2C du µC et celui de l'afficheur.
+- La carte ESP'Infinty équipée de son [ESP32-wroom-32](https://www.az-delivery.de/en/products/esp32-developmentboard) permet une connectivité simplifiée entre le µC et l'afficheur.
 
 <img src="./images/infinity.jpg" height="200" width="300" alt="Carte Infinity">
 
