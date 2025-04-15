@@ -38,9 +38,11 @@ Adafruit_SSD1306 oled(OLED_WIDTH, OLED_HEIGHT, &Wire, OLED_RESET);
 
 ### Configuration
 
+Cette étape permet l'initialisation de l'écran par son adresse, tout en fixant son orientation *oled.begin()*. Les méthodes *.setTexteSize()*, *.setFont()* et *.setTextColor()* configure respectivement la taille, la police et la couleur du texte à afficher.
+
 ```cpp
  oled.begin(SSD1306_SWITCHCAPVCC, OLED_ADRESS); // démarrage du Oled en fixant son orientation et son adresse
-oled.setTextSize(TAILLE_TEXTE);
+ oled.setTextSize(TAILLE_TEXTE);
  oled.setFont(&FreeSerifBold9pt7b); // police de caractère *optionnelle
  oled.setTextColor(SSD1306_WHITE);
  oled.clearDisplay();
@@ -48,7 +50,7 @@ oled.setTextSize(TAILLE_TEXTE);
 
 ## 3 - Création d'une bibliotèque
 
-> Afin de faciliter l'utilisation de l'afficheur Oled, on utilisera un bibliotèque déposée dans le dossier lib du projet.
+> Afin de faciliter l'utilisation de l'afficheur Oled, on utilisera un bibliotèque déposée dans le dossier *lib* du projet. Dans VScode, ilfaut créer un dossier nommé identiqueent à la bibliothèque créée.
 
 <br>
 
